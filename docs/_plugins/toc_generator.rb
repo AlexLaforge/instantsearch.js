@@ -15,6 +15,7 @@ module Jekyll
         if level > current_level
           current_level.upto(level - 1) do
             html << '<ul>'
+            html << '<li><a href=\"#booya\">react-instantsearch</a></li>'
           end
         elsif level < current_level
           level.upto(current_level - 1) do
