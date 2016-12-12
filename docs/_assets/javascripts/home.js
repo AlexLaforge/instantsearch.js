@@ -277,6 +277,5 @@ function banner() {
     }
 
   });
-  console.log(document.cookie)
 }
 banner();
